@@ -38,7 +38,6 @@ task(TASK_COMPILE_SOLIDITY_GET_SOLC_BUILD, async (args: TaskArguments, hre, runS
 });
 
 const config: HardhatUserConfig = {
-  // Currently supports only a single solidity version
   solidity: {
     compilers: [
       {
