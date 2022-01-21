@@ -37,7 +37,7 @@
 
 pragma solidity ^0.8.9;
 
-library strings {
+library lib_strings_slice {
 	struct slice {
 		uint _len;
 		uint _ptr;
